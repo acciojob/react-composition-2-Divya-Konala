@@ -1,6 +1,10 @@
 body{
     margin: 10px;
 }
+.App{
+    width: 100vw;
+    height: 100vh;
+}
 button{
     background-color: orangered;
     color: white;
@@ -13,12 +17,12 @@ button{
 button:hover{
     cursor: pointer;
 }
-.show{
+/* .show{
     display: block;
 }
 .hide{
     display: none;
-}
+} */
 .model-overlay{
     position: absolute;
     top:100px;
