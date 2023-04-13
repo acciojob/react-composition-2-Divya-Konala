@@ -6,7 +6,6 @@ import Modal from "./Modal";
 const App = () => {
   const [show,setShow]=useState(false);
   const onClose=()=>{
-    console.log("On Close");
     setShow(false);
   }
   return (
