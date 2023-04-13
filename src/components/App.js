@@ -9,7 +9,7 @@ const App = () => {
     setShow(false);
   }
   return (
-    <div className="App" onClick={()=>show && onClose()}>
+    <div className="modal-overlay">
         {/* Do not remove the main div */}
         <button onClick={()=>setShow(true)}>Show Modal</button>
         {
